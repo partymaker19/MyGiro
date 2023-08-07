@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="main.css">
+
+        <title>My Giro</title>
+    </head>
+    <body>   
+        <header class="header">
+            <a href="">
+                <img src="images/logo.svg" alt="Гироскутер между надписями 'My Giro'">
+            </a>
+
+            <a href="tel:89121231212" class="phone-link">
+                <img src="images/phone.svg" alt="Телефон">
+                8(912)123-12-12
+            </a>
+
+            <button class="white-filled-button">
+                ЗАКАЗАТЬ ЗВОНОК
+            </button>
+        </header>
+
+        <div class="between-lines navigation-container">
+            <div class="line"></div>
+
+            <nav class="navigation">
+                <a href="#about" class="white-filled-button navigation-button">
+                    О нас
+                </a>
+
+                <a href="#catalog" class="white-filled-button navigation-button">
+                    Каталог
+                </a>
+
+                <a href="#contacts" class="white-filled-button navigation-button">
+                    Контакты
+                </a>
+            </nav>
+
+            <div class="line"></div>
+        </div>
+
+        <main>
+            <section class="hero-section">
+                <h1 class="shop-name">
+                    MY-GIRO
+                </h1>
+
+                <hr class="divider">
+
+                <p class="shop-description">
+                    лучший интернет-магазин по продаже гироскутеров, сигвеев электросамокатов 
+                    от известных мировых производителей
+                </p>
+
+                <button class="white-filled-button learn-more-button">
+                    Подробнее
+                </button>
+            </section>
+
+            <section class="advantages-section">
+                <div class="between-lines section-heading-container advantages-section-heading-container">
+                    <div class="line"></div>
+                    <h2 class="section-heading">
+                        НАШИ ПРЕИМУЩЕСТВА
+                    </h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="slider-controls">
+                    <a href="#carousel__slide1" class="slide-button">
+                        <img src="images/checkmark.png" alt="Галочка" class="slide-icon">
+
+                        <h3 class="slide-title">
+                            Качество
+                        </h3>
+                    </a>
+
+                    <a href="#carousel__slide2" class="slide-button">
+                        <img src="images/box.png" alt="Коробка" class="slide-icon">
+                        
+                        <h3 class="slide-title">
+                            Большой ассортимент
+                        </h3>
+                    </a>
+
+                    <a href="#carousel__slide3" class="slide-button">
+                        <img src="images/delivery.png" alt="Грузовик" class="slide-icon">
+                        
+                        <h3 class="slide-title">
+                            Быстрая доставка
+                        </h3>
+                    </a>
+
+                    <a href="#carousel__slide4" class="slide-button">
+                        <img src="images/admin.png" alt="Поддержка" class="slide-icon">
+                        
+                        <h3 class="slide-title">
+                            24/7 поддержка
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="carousel">
+                    <ol class="carousel__viewport">
+                        <li id="carousel__slide1" class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+    
+                            <img src="images/notebook.png" alt="Рука, указывающая на ноутбук"
+                                class="advantage-photo">
+
+                            <p class="advantage-description">
+                                При заказе товара в нашем инернет-магазине, у вас есть гарантия 
+                                того, что вы получите качественный товар.
+                            </p>
+                        </li>
+
+                        <li id="carousel__slide2" class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide1" class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+    
+                            <img src="images/store.png" alt="Склад"
+                                class="advantage-photo">
+
+                            <p class="advantage-description">
+                                В нашем интернете вы точно сможете подобрать то, что подойде именно вам!
+                            </p>
+                        </li>
+
+
+                        <li id="carousel__slide3" class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide2" class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+    
+                            <img src="images/motorbike-rider.png" alt="Мотоциклист в ночном городе"
+                                class="advantage-photo">
+
+                            <p class="advantage-description">
+                                Быстрая  доставка  не заставит вас долго ждать свою покупку
+                            </p>
+                        </li>
+
+                        <li id="carousel__slide4" class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide3" class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide1" class="carousel__next">Go to next slide</a>
+    
+                            <img src="images/support.png" alt="Поддержка"
+                                class="advantage-photo">
+
+                            <p class="advantage-description">
+                                В нашем интернете вы точно сможете подобрать то, что подойде именно вам!
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <section class="about-section">
+                <div class="between-lines section-heading-container about-section-heading-container">
+                    <div class="line"></div>
+                    <h2 class="section-heading about-section-heading">
+                        О НАС
+                    </h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="about-section-main-content-wrapper">
+                    <img src="images/scooter.png" alt="Самокат">
+
+                    <div class="about-block">
+                        <p class="about-text">
+                            Наш интернет-магазин предоставляет крупнейший ассортимент 
+                            гироскутеров, сигвеев и электросамокатов от известных производителей
+                        </p>
+
+                        <button class="white-filled-button catalog-button">
+                            Каталог
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features-section">
+                <div class="between-lines section-heading-container features-section-heading-container">
+                    <div class="line"></div>
+                    <h2 class="section-heading features-section-heading">
+                        ОСОБЕННОСТИ
+                    </h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="products-features">
+                    <div class="product-type-wrapper">
+                        <h3 class="product-type">
+                            Гироскутер
+                        </h3>
+                    </div>
+
+                    <div class="features-column">
+                        <h4 class="good-features-heading">
+                            Плюсы
+                        </h4>
+
+                        <ul class="features-list">
+                            <li class="feature">
+                                - Экономичность
+                            </li>
+                        
+                            <li class="feature">
+                                - Компактность
+                            </li>
+                        
+                            <li class="feature">
+                                - Маневренность
+                            </li>
+
+                            <li class="feature">
+                                - Доступность
+                            </li>
+
+                            <li class="feature">
+                                - Простотой в освоении
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="features-column">
+                        <h4 class="bad-features-heading">
+                            Плюсы
+                        </h4>
+
+                        <ul class="features-list">
+                            <li class="feature">
+                                - Нет сидячего места
+                            </li>
+                        
+                            <li class="feature">
+                                - Повышенная тряска
+                            </li>
+                        
+                            <li class="feature">
+                                - Одноместный
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="products-features">
+                    <div class="product-type-wrapper">
+                        <h3 class="product-type">
+                            Электросамокат
+                        </h3>
+                    </div>
+
+                    <div class="features-column">
+                        <h4 class="good-features-heading">
+                            Плюсы
+                        </h4>
+
+                        <ul class="features-list">
+                            <li class="feature">
+                                - Экономичность
+                            </li>
+                        
+                            <li class="feature">
+                                - Компактность
+                            </li>
+                        
+                            <li class="feature">
+                                - Маневренность
+                            </li>
+
+                            <li class="feature">
+                                - Доступность
+                            </li>
+
+                            <li class="feature">
+                                - Простотой в освоении
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="features-column">
+                        <h4 class="bad-features-heading">
+                            Плюсы
+                        </h4>
+
+                        <ul class="features-list">
+                            <li class="feature">
+                                - Нет сидячего места
+                            </li>
+                        
+                            <li class="feature">
+                                - Повышенная тряска
+                            </li>
+                        
+                            <li class="feature">
+                                - Одноместный
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="products-features">
+                    <div class="product-type-wrapper">
+                        <h3 class="product-type">
+                            Сигвей
+                        </h3>
+                    </div>
+
+                    <div class="features-column">
+                        <h4 class="good-features-heading">
+                            Плюсы
+                        </h4>
+
+                        <ul class="features-list">
+                            <li class="feature">
+                                - Экономичность
+                            </li>
+                        
+                            <li class="feature">
+                                - Компактность
+                            </li>
+                        
+                            <li class="feature">
+                                - Маневренность
+                            </li>
+
+                            <li class="feature">
+                                - Доступность
+                            </li>
+
+                            <li class="feature">
+                                - Простотой в освоении
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="features-column">
+                        <h4 class="bad-features-heading">
+                            Плюсы
+                        </h4>
+
+                        <ul class="features-list">
+                            <li class="feature">
+                                - Нет сидячего места
+                            </li>
+                        
+                            <li class="feature">
+                                - Повышенная тряска
+                            </li>
+                        
+                            <li class="feature">
+                                - Одноместный
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="catalog-section">
+                <div class="between-lines section-heading-container catalog-section-heading-container">
+                    <div class="line"></div>
+                    <h2 class="section-heading catalog-section-heading">
+                        КАТАЛОГ
+                    </h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="catalog-section-main-content-wrapper">
+                    <input type="radio" name="filter" id="gyroscooter" class="filter-radio" hidden>
+                    <input type="radio" name="filter" id="scooter" class="filter-radio" hidden>
+                    <input type="radio" name="filter" id="segway" class="filter-radio" hidden>
+                    <input type="radio" name="filter" id="all" class="filter-radio" hidden checked>
+
+                    <div class="filters">
+                        <label class="filter-button" for="all">
+                            Все
+                        </label>
+                        
+                        <label class="filter-button" for="segway">
+                            Сигвей
+                        </label>
+                        
+                        <label class="filter-button" for="scooter">
+                            Электросамокат
+                        </label>
+                        
+                        <label class="filter-button" for="gyroscooter">
+                            Гироскутер
+                        </label>
+                    </div>
+    
+                    <ul class="product-list">
+                        <li class="product" data-product-type="gyroscooter">
+                            <img src="images/minipro.png" alt="Гироскутер" class="product-picture">
+    
+                            <h3 class="product-name">
+                                MiniPro 10,5" Космостар
+                            </h3>
+    
+                            <p class="product-card-type">
+                                ВИД: ГИРОСКУТЕР
+                            </p>
+    
+                            <div class="price-info">
+                                11 900 р.
+                                <button class="buy-button">
+                                    КУПИТЬ
+                                </button>
+                            </div>
+                        </li>
+    
+                        <li class="product" data-product-type="scooter">
+                            <img src="images/halten-tony.png" alt="Самокат" class="product-picture">
+    
+                            <h3 class="product-name">
+                                Halten Tony v.2 Черный
+                            </h3>
+    
+                            <p class="product-card-type">
+                                ВИД: ЭЛЕКТРОСАМОКАТ
+                            </p>
+    
+                            <div class="price-info">
+                                26 900 р.
+                                <button class="buy-button">
+                                    КУПИТЬ
+                                </button>
+                            </div>
+                        </li>
+    
+                        <li class="product" data-product-type="gyroscooter">
+                            <img src="images/minipro-2.png" alt="Гироскутер" class="product-picture">
+    
+                            <h3 class="product-name">
+                                MiniPro 10,5" Джунгли
+                            </h3>
+    
+                            <p class="product-card-type">
+                                ВИД: ГИРОСКУТЕР
+                            </p>
+    
+                            <div class="price-info">
+                                11 900 р.
+                                <button class="buy-button">
+                                    КУПИТЬ
+                                </button>
+                            </div>
+                        </li>
+    
+                        <li class="product" data-product-type="segway">
+                            <img src="images/smart-wind-rover.png" alt="Сигвей" class="product-picture">
+    
+                            <h3 class="product-name">
+                                SMART WIND ROVER ALLROAD
+                            </h3>
+    
+                            <p class="product-card-type">
+                                ВИД: СИГВЕЙ
+                            </p>
+    
+                            <div class="price-info">
+                                89 990 р.
+                                <button class="buy-button">
+                                    КУПИТЬ
+                                </button>
+                            </div>
+                        </li>
+    
+                        <li class="product" data-product-type="segway">
+                            <img src="images/mini-robot.png" alt="Сигвей" class="product-picture">
+    
+                            <h3 class="product-name">
+                                MINI ROBOT 36V БЕЛЫЙ
+                            </h3>
+    
+                            <p class="product-card-type">
+                                ВИД: СИГВЕЙ
+                            </p>
+    
+                            <div class="price-info">
+                                19 900 р.
+                                <button class="buy-button">
+                                    КУПИТЬ
+                                </button>
+                            </div>
+                        </li>
+    
+                        <li class="product" data-product-type="scooter">
+                            <img src="images/halten-rs.png" alt="Самокат" class="product-picture">
+    
+                            <h3 class="product-name">
+                                HALTEN RS-02 v.2
+                            </h3>
+    
+                            <p class="product-card-type">
+                                ВИД: ЭЛЕКТРОСАМОКАТ
+                            </p>
+    
+                            <div class="price-info">
+                                94 900 р.
+                                <button class="buy-button">
+                                    КУПИТЬ
+                                </button>
+                            </div>
+                        </li>
+
+                        <li class="product" data-product-type="segway">
+                            <img src="images/mini-a8.png" alt="Сигвей" class="product-picture">
+    
+                            <h3 class="product-name">
+                                МИНИ СИГВЕЙ А8
+                            </h3>
+    
+                            <p class="product-card-type">
+                                ВИД: СИГВЕЙ
+                            </p>
+    
+                            <div class="price-info">
+                                17 900 р.
+                                <button class="buy-button">
+                                    КУПИТЬ
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>            
+            </section>
+
+            <section class="managers-section">
+                <div class="between-lines section-heading-container managers-section-heading-container">
+                    <div class="line"></div>
+                    <h2 class="section-heading managers-section-heading">
+                        НАШИ МЕНЕДЖЕРЫ
+                    </h2>
+                    <div class="line"></div>
+                </div>
+
+                <ul class="managers-list">
+                    <li class="manager">
+                        <img src="images/person1.png" alt="Женщина с кофе в руках" class="manager-photo">
+
+                        <h3 class="manager-name">
+                            ВАЛЕРИЯ
+                        </h3>
+
+                        <p class="manager-job">
+                            Старший менеждер по продажам
+                        </p>
+                    </li>
+
+                    <li class="manager">
+                        <p class="managers-description">
+                            Они обязательно помогут с выбором транспорта в нашем интернет-магазине
+                        </p>
+
+                        <img src="images/person2.png" alt="Мужчина в сером пиджаке улыбается" class="manager-photo">
+
+                        <h3 class="manager-name">
+                            АНТОН
+                        </h3>
+
+                        <p class="manager-job">
+                            менеждер по продажам
+                        </p>
+                    </li>
+
+                    <li class="manager">
+                        <img src="images/person3.png" alt="Мужчина в черном пиджаке" class="manager-photo">
+
+                        <h3 class="manager-name">
+                            СЕРГЕЙ
+                        </h3>
+
+                        <p class="manager-job">
+                            Старший менеждер по продажам
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="partners-section">
+                <div class="between-lines section-heading-container partners-section-heading-container">
+                    <div class="line"></div>
+                    <h2 class="section-heading partners-section-heading">
+                        С НАМИ СОТРУДНИЧАЮТ
+                    </h2>
+                    <div class="line"></div>
+                </div>
+
+                <ul class="partners-list">
+                    <li>
+                        <img src="images/halten.png" alt="Лого Halten">
+                    </li>
+
+                    <li>
+                        <img src="images/mi.png" alt="Надпись 'mi' в закругленно прямоугольнике">
+                    </li>
+
+                    <li>
+                        <img src="images/kugoo.png" alt="Надпись 'kugoo'">
+                    </li>
+
+                    <li>
+                        <img src="images/segway.png" alt="Надпись 'segway' и иконка сигвея над ней">
+                    </li>
+
+                    <li>
+                        <img src="images/airwheel.png" alt="Надпись 'airwheel'">
+                    </li>
+                </ul>
+            </section>
+
+            <section class="info-section">
+                <div class="between-lines section-heading-container info-section-heading-container">
+                    <div class="line"></div>
+
+                    <h2 class="section-heading info-section-heading">
+                        ПОЛЕЗНАЯ ИНФОРМАЦИЯ
+                    </h2>
+
+                    <button class="more-info-button">
+                        Читать все
+                    </button>
+
+                    <div class="line"></div>
+                </div>
+
+                <article class="article-card">
+                    <div class="article-content">
+                        <h3 class="article-heading">
+                            Как выбрать гироскутер перед покупкой?
+                        </h3>
+    
+                        <p class="article-text">
+                            Чтобы выбрать лучший гироскутер, необходимо ознакомиться с основными отличиями 
+                            популярных моделей. 
+                            <br>
+                            Диаметр и тип колес. Чем больше диаметр колеса, тем выше проходимость гироскутера 
+                            и плавность его хода...
+                        </p>
+    
+                        <button class="read-article-button">
+                            Подробнее
+                        </button>
+                    </div>
+
+                    <img src="images/gyroscooter.png" alt="Гироскутеры" class="article-thumbnail">
+                </article>
+
+                <article class="article-card article-card-reversed">
+                    <div class="article-content">
+                        <h3 class="article-heading">
+                            Как выбрать электросамокат перед покупкой?
+                        </h3>
+    
+                        <p class="article-text">
+                            Перед тем как приступить к выбору электросамоката, необходимо чётко 
+                            понимать, для кого именно он подбирается. Самое важное при выборе 
+                            электросамоката в 2022-2023 году – это правильно подобрать основные 
+                            и второстепенные параметры под ...
+                        </p>
+    
+                        <button class="read-article-button">
+                            Подробнее
+                        </button>
+                    </div>
+
+                    <img src="images/scooter-2.png" alt="Самокат" class="article-thumbnail">
+                </article>
+            </section>
+
+            <section class="newsletter-section">
+                <div class="between-lines section-heading-container newsletter-section-heading-container">
+                    <div class="line"></div>
+
+                    <h2 class="section-heading newsletter-section-heading">
+                        EMAIL РАССЫЛКА
+                    </h2>
+
+                    <div class="line"></div>
+                </div>
+
+                <div class="newsletter-section-main-content-wrapper">
+                    <p class="newsletter-section-description">
+                        Вы так же можете подписаться на email- рассылку от нашего интернет 
+                        магазина чтобы знать первым о всех новинках и акциях
+                    </p>
+
+                    <form class="newsletter-form">
+                        <input type="text" placeholder="Имя" class="text-field">
+                        <input type="email" placeholder="Адрес эл. почты" class="text-field">
+
+                        <button class="white-filled-button subscribe-button" type="button">
+                            Подписаться
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="reviews-section">
+                <div class="between-lines section-heading-container reviews-section-heading-container">
+                    <div class="line"></div>
+
+                    <h2 class="section-heading reviews-section-heading">
+                        ОТЗЫВЫ
+                    </h2>
+
+                    <div class="line"></div>
+                </div>
+
+                <p class="reviews-section-description">
+                    Более 10 000 клиентов оставили положительные отзывы о нашем 
+                    интернет-магазине
+                </p>
+
+                <ul class="reviews-list">
+                    <li class="review">
+                        <img src="images/person4.png" alt="Мужчина в кепке" class="review-author-photo">
+
+                        <h4 class="review-author">
+                            ПЕТР
+                        </h4>
+
+                        <blockquote class="review-text">
+                            “Доброжелательность и уважение к клиенту; задав вопрос всегда 
+                            получишь развернутый ответ о товаре. Быстрая доставка заказа. 
+                            Периодически возвращаюсь за очередным заказом, все устраивает”
+                        </blockquote>
+                    </li>
+
+                    <li class="review">
+                        <img src="images/person5.png" alt="Женщина" class="review-author-photo">
+
+                        <h4 class="review-author">
+                            ЕВГЕНИЯ
+                        </h4>
+
+                        <blockquote class="review-text">
+                            “После первой покупки писала хвалебные отзывы, но слов благодарности не 
+                            бывает много. Сегодня получила очередной заказ, даже не помню какой по 
+                            счету, и хочу еще раз поблагодарить коллектив магазина за профессионализм, 
+                            внимание, четкую работу.”
+                        </blockquote>
+                    </li>
+
+                    <li class="review">
+                        <img src="images/person6.png" alt="Мужчина в панаме" class="review-author-photo">
+
+                        <h4 class="review-author">
+                            АРТУР
+                        </h4>
+
+                        <blockquote class="review-text">
+                            “Очень хороший магазин. Отличное качество. Быстрое исполнение заказа. 
+                            Заказывал несколько раз. Очень доволен. Рекомендую”
+                        </blockquote>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <img src="images/logo.svg" alt="Гироскутер между надписями 'My Giro'" class="footer-logo">
+        </footer>
+    </body>
+</html>
